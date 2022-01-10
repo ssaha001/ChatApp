@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Chat App</title>
+        <script defer src="socket.io/socket.io.js"></script>
+        <script defer src="static/client.js"></script>
+        <link rel="stylesheet" href="static/style.css",type="text/css">
+    </head>
+    <body>
+        <div id="logo">
+            <img src="static/Chit_Chat.png" alt="Our Logo">
+        </div>
+        <div class="msgContainer">
+        </div>
+        <div class="msgBox">
+            <form action="#" id="sendContainer">
+                <input type="text" name="msgInp" id="msgInp" required>
+                <button class="sendBtn" type="submit">Send</button>
+            </form>
+        </div>
+    </body>
+</html>
