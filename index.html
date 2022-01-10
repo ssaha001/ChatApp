@@ -4,16 +4,20 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Chat App</title>
+        <!-- Add the javascript files -->
         <script defer src="socket.io/socket.io.js"></script>
         <script defer src="static/client.js"></script>
         <link rel="stylesheet" href="static/style.css",type="text/css">
     </head>
     <body>
+        <!-- Add the logo to page -->
         <div id="logo">
             <img src="static/Chit_Chat.png" alt="Our Logo">
         </div>
+        <!-- A container to store the messages of all users and display -->
         <div class="msgContainer">
         </div>
+        <!-- A container holding the form for sending a message -->
         <div class="msgBox">
             <form action="#" id="sendContainer">
                 <input type="text" name="msgInp" id="msgInp" required>
